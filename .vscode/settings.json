@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.autoClosingQuotes": "always",
+    "editor.tabCompletion": "on"
+}

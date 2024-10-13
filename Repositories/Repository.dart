@@ -1,5 +1,4 @@
-// Abstrakt klass kan ha metodimplementationer men kan inte instansieras.
-// Endast konkreta klasser som ärver från Repository kan skapas.
+
 abstract class Repository<T> {
 	List<T> _items = [];
 
@@ -13,12 +12,11 @@ abstract class Repository<T> {
 	}
 
 	void delete(T item) => _items.remove(item);
+
+
+  // void displayAll(){
+  //   List<T> all = getAll();
+
+  //   all.forEach(print);
+  // }
 }
-
-// // lagrar och tar endast emot Person-objekt
-// class PersonRepository extends Repository<Person> {}
-
-// // lagrar och tar endast emot Vehicle-objekt
-// class VehicleRepository extends Repository<Vehicle> {}
-
-// // Notera implementationen återanvänds. Ingen repeterad kod :-)
