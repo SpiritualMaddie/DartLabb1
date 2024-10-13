@@ -12,11 +12,4 @@ abstract class Repository<T> {
 	}
 
 	void delete(T item) => _items.remove(item);
-
-
-  // void displayAll(){
-  //   List<T> all = getAll();
-
-  //   all.forEach(print);
-  // }
 }

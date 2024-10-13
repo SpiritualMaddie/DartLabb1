@@ -4,6 +4,7 @@ import 'Person.dart';
 
 class Vehicle {
   //int vehicleId;
+  //enum vehicleType {};
   String plateNumber;
   String vehicleType;
   Person owner;
@@ -12,6 +13,10 @@ class Vehicle {
 
   @override
   String toString() {
-    return "regnr: $plateNumber, typ: $vehicleType, ägare: ${owner.firstName} ${owner.lastName}";
+    return """
+Regnr: $plateNumber
+    Typ: $vehicleType
+    Ägare: ${owner.firstName} ${owner.lastName}
+-----------------------------------------------------------""";
   }
 }

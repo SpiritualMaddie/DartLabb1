@@ -98,10 +98,10 @@ class DummyData{
 
 
       // ************************* PARKINGS *******************************************************************
-      repoParking.add(Parking(vehicle: vehicle201, parkingSpace: parkingSpace302, startTime: DateTime(2024, 10, 10, 13, 0), endTime: DateTime(2024, 10, 10, 15, 30)));
-      repoParking.add(Parking(vehicle: vehicle202, parkingSpace: parkingSpace303, startTime: DateTime(2024, 10, 10, 1, 0)));
-      repoParking.add(Parking(vehicle: vehicle203, parkingSpace: parkingSpace305, startTime: DateTime(2024, 10, 10, 10, 0), endTime: DateTime(2024, 10, 10, 12, 30)));
-      repoParking.add(Parking(vehicle: vehicle204, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 9, 18, 0)));
-      repoParking.add(Parking(vehicle: vehicle205, parkingSpace: parkingSpace309, startTime: DateTime(2024, 10, 10, 23, 45), endTime: DateTime(2024, 10, 11, 3, 30)));
+      repoParking.add(Parking(vehicle: vehicle201, parkingSpace: parkingSpace301, startTime: DateTime(2024, 10, 10, 13, 0), endTime: DateTime(2024, 10, 10, 15, 30)));
+      repoParking.add(Parking(vehicle: vehicle202, parkingSpace: parkingSpace302, startTime: DateTime(2024, 10, 10, 1, 0)));
+      repoParking.add(Parking(vehicle: vehicle207, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 10, 10, 0), endTime: DateTime(2024, 10, 10, 12, 30)));
+      repoParking.add(Parking(vehicle: vehicle210, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 9, 18, 0)));
+      repoParking.add(Parking(vehicle: vehicle203, parkingSpace: parkingSpace309, startTime: DateTime(2024, 10, 10, 23, 45), endTime: DateTime(2024, 10, 11, 3, 30)));
     }
 }

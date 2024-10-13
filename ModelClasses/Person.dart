@@ -10,6 +10,9 @@ class Person {
 
   @override
   String toString() {
-    return "personnr: $ssn - namn: $firstName $lastName";
+    return """
+Namn: $firstName $lastName
+   Personnr: $ssn
+-----------------------------------------------------------""";
   }
 }
