@@ -52,17 +52,17 @@ class DummyData{
 
 
       // ************************* VEHICLES *******************************************************************
-      var vehicle201 = Vehicle(plateNumber: "KAZ2Y5", vehicleType: "Car", owner: person101);
+      var vehicle201 = Vehicle(plateNumber: "KAZ2Y5", vehicleType: "Bil", owner: person101);
       repoVehicle.add(vehicle201);
-      var vehicle202 = Vehicle(plateNumber: "SLAYER666", vehicleType: "Car", owner: person102);
+      var vehicle202 = Vehicle(plateNumber: "SLAYER666", vehicleType: "Bil", owner: person102);
       repoVehicle.add(vehicle202);
       var vehicle203 = Vehicle(plateNumber: "TARDIS001", vehicleType: "TARDIS", owner: person103);
       repoVehicle.add(vehicle203);
       var vehicle204 = Vehicle(plateNumber: "GOV001", vehicleType: "Motorcycle", owner: person104);
       repoVehicle.add(vehicle204);
-      var vehicle205 = Vehicle(plateNumber: "221BBKR", vehicleType: "Car", owner: person105);
+      var vehicle205 = Vehicle(plateNumber: "221BBKR", vehicleType: "Bil", owner: person105);
       repoVehicle.add(vehicle205);
-      var vehicle206 = Vehicle(plateNumber: "HND978", vehicleType: "Car", owner: person106);
+      var vehicle206 = Vehicle(plateNumber: "HND978", vehicleType: "Bil", owner: person106);
       repoVehicle.add(vehicle206);
       var vehicle207 = Vehicle(plateNumber: "PLANETEXP", vehicleType: "Spaceship", owner: person107);
       repoVehicle.add(vehicle207);
@@ -98,10 +98,10 @@ class DummyData{
 
 
       // ************************* PARKINGS *******************************************************************
-      repoParking.add(Parking(vehicle: vehicle201, parkingSpace: parkingSpace302, startTime: DateTime(2024, 10, 10, 13, 0), endTime: DateTime(2024, 10, 10, 15, 30)));
-      repoParking.add(Parking(vehicle: vehicle202, parkingSpace: parkingSpace303, startTime: DateTime(2024, 10, 10, 1, 0)));
-      repoParking.add(Parking(vehicle: vehicle203, parkingSpace: parkingSpace305, startTime: DateTime(2024, 10, 10, 10, 0), endTime: DateTime(2024, 10, 10, 12, 30)));
-      repoParking.add(Parking(vehicle: vehicle204, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 9, 18, 0)));
-      repoParking.add(Parking(vehicle: vehicle205, parkingSpace: parkingSpace309, startTime: DateTime(2024, 10, 10, 23, 45), endTime: DateTime(2024, 10, 11, 3, 30)));
+      repoParking.add(Parking(vehicle: vehicle201, parkingSpace: parkingSpace301, startTime: DateTime(2024, 10, 10, 13, 0), endTime: DateTime(2024, 10, 10, 15, 30)));
+      repoParking.add(Parking(vehicle: vehicle202, parkingSpace: parkingSpace302, startTime: DateTime(2024, 10, 10, 1, 0)));
+      repoParking.add(Parking(vehicle: vehicle207, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 10, 10, 0), endTime: DateTime(2024, 10, 10, 12, 30)));
+      repoParking.add(Parking(vehicle: vehicle210, parkingSpace: parkingSpace307, startTime: DateTime(2024, 10, 9, 18, 0)));
+      repoParking.add(Parking(vehicle: vehicle203, parkingSpace: parkingSpace309, startTime: DateTime(2024, 10, 10, 23, 45), endTime: DateTime(2024, 10, 11, 3, 30)));
     }
 }
