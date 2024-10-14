@@ -1,7 +1,8 @@
 
 
-import '../ModelClasses/Vehicle.dart';
-import 'Repository.dart';
+import '../models/vehicle.dart';
+import 'repository.dart';
+
 
 class VehicleRepository extends Repository<Vehicle>{
 

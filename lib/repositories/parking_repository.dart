@@ -1,7 +1,7 @@
 
 
-import '../ModelClasses/Parking.dart';
-import 'Repository.dart';
+import '../models/parking.dart';
+import 'repository.dart';
 
 class ParkingRepository extends Repository<Parking>{
 

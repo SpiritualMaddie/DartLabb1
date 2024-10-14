@@ -1,5 +1,5 @@
-import 'ParkingSpace.dart';
-import 'Vehicle.dart';
+import 'parking_space.dart';
+import 'vehicle.dart';
 
 class Parking {
   //int parkingId;

@@ -1,12 +1,11 @@
-
-import 'ModelClasses/Parking.dart';
-import 'ModelClasses/ParkingSpace.dart';
-import 'ModelClasses/Person.dart';
-import 'ModelClasses/Vehicle.dart';
-import 'Repositories/ParkingRepository.dart';
-import 'Repositories/ParkingSpaceRepository.dart';
-import 'Repositories/PersonRepository.dart';
-import 'Repositories/VehicleRepository.dart';
+import '../lib/repositories/vehicle_repository.dart';
+import '../lib/models/vehicle.dart';
+import '../lib/models/parking.dart';
+import '../lib/models/parking_space.dart';
+import '../lib/models/person.dart';
+import '../lib/repositories/parking_repository.dart';
+import '../lib/repositories/parking_space_repository.dart';
+import '../lib/repositories/person_repository.dart';
 
 class DummyData{
 
