@@ -32,7 +32,7 @@ class Application{
 void startMenu(){
 
   while (true) {
-    
+    consoleUtils.clearConsole();
     String prompt = "Vad vill du göra?\n";
 
     List<String> options = ["1. Parkera mitt fordon",
