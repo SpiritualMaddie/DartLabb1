@@ -1,6 +1,6 @@
 
-import 'Application.dart';
-import 'DummyData.dart';
+import '../lib/application.dart';
+import '../data/dummy_data.dart';
 
 void main(List<String> args){
   Application startApp = Application();
